@@ -1,0 +1,29 @@
+.logo {
+  width: 85%;
+}
+
+.navbar, .navCollapse {
+  background-color: #303030;
+}
+
+.navLink {
+  font-weight: 500;
+  font-size: 1.2em;
+  color: #fffefb !important;
+} 
+
+.navLink:hover {
+  cursor: pointer;
+}
+
+.navNum {
+  color: #4A74E1;
+}
+
+.toggler {
+  border: none;
+}
+
+.menuIcon {
+  width: 48px;
+}

@@ -1,0 +1,39 @@
+.cardInfo {
+  padding: 32px;
+  padding-top: 36px;
+  color: #fffefb;
+  border: 2px solid #fffefb;
+  border-radius: 8px;
+  height: 248px;
+  margin-bottom: 2em;
+  transition: all 0.25s ease;
+  box-shadow: -12px 12px #fffefb;
+  position: relative;
+}
+
+.cardInfo:hover {
+  box-shadow: none;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.github {
+  float: right;
+  width: 1.25em;
+  color: #fffefb;
+  transition: all 0.25s ease;
+}
+
+.github:hover {
+  color: #7398fa;
+}
+
+.badge {
+  background-color: #7398fa;
+  position: absolute;
+  bottom: 32px;
+}

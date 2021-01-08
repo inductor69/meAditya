@@ -1,0 +1,47 @@
+.section {
+  margin-top: 6em;
+  color:  #fffefb;
+  font-size: 1.2em
+
+
+}
+
+.link {
+  font-weight: 500;
+  color: #7398fa;
+}
+
+.link:hover {
+  color: #7398fa;
+}
+
+.headerGroup {
+  font-weight: 500;
+}
+
+.headerNum {
+  color: #7398fa;
+}
+
+.thingsGroup {
+  margin-top: 1.5em;
+}
+
+.thingsHeader {
+  font-weight: 500;
+  color: #fffefb;
+
+}
+.hero {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  transition: all 0.25s ease;
+
+}
+.thingsList {
+  margin-top: -8px;
+  margin-left: -20px;
+
+}

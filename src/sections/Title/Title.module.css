@@ -1,0 +1,95 @@
+.section {
+  margin-top: 10em;
+}
+
+.content {
+  margin-bottom: 2em;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 2em;
+  color: #7398fa;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 6em;
+  color: #fffefb;
+  margin-left: -4px;
+}
+
+.description {
+  color: #fffefb;
+  font-size: 1.5em
+}
+
+.period {
+  color: #7398fa;
+}
+
+.button {
+  font-weight: 500;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.resume {
+  background-color: #303030;
+  border: none;
+}
+
+.resume:hover {
+  background-color: #7398fa;
+}
+
+.contact {
+  background: none;
+  color: #fffefb;
+  border: 2px solid #fffefb;
+}
+
+.contact:hover {
+  color: #7398fa;
+  border-color: #7398fa;
+  background: none;
+}
+
+.resume {
+  border: 2px solid #fffefb;
+}
+
+.resume:hover {
+  background-color: #7398fa;
+  border-color: #7398fa;
+}
+
+.contactIcon, .resumeIcon {
+  width: 0.9em;
+  margin-right: 10px;
+  margin-top: -2px;
+}
+
+.hero {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  transition: all 0.25s ease;
+
+}
+
+.hero:hover {
+  filter: saturate(1);
+}
+
+@media (max-width: 767px) {
+  .hero {
+    width: 60%
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    width: 75%
+  }
+}

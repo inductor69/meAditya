@@ -1,0 +1,30 @@
+.container {
+  margin-top: 4em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.link {
+  margin: auto 1.25em;
+}
+
+.iconGroup {
+  text-align: center;
+}
+
+.icon {
+  transition: all 0.25s ease;
+  color: #303030;
+  width: 1.5em;
+  margin: 0.5em auto;
+}
+
+.icon:hover {
+  color: #4A74E1;
+}
+
+.message {
+  margin-top: 3em;
+  color: #808080;
+  font-size: 14px;
+}

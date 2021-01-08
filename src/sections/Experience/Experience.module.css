@@ -1,0 +1,53 @@
+.section {
+  margin-top: 6em;
+  color:  #fffefb;
+  font-size: 1.1em
+
+}
+
+.headerGroup {
+  font-weight: 500;
+  margin-bottom: 2.5em;
+}
+
+.headerNum {
+  color: #7398fa;
+}
+
+.experienceGroup {
+  margin-bottom: 4em;
+  
+}
+
+.companyImage {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  margin-bottom: 1em;
+}
+
+.companyInfo {
+  color: #fffefb;
+  font-size: 1em
+
+}
+
+.name {
+  font-weight: 500;
+  font-size: 1.1em
+
+  
+}
+
+.position {
+  font-style: italic;
+  margin-top: -12px;
+}
+
+.line {
+  width: 10%;
+  border-width: 2px;
+  border-color: #E5E5E5;
+  margin-left: 0;
+  margin-top: -8px;
+}
