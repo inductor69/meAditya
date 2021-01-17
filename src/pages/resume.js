@@ -2,7 +2,7 @@ export default function Resume() {
   return null;
 }
 
-export async function getServerSideProps({ res }) {
+export async function getInitialProps({ res }) {
   res.writeHead(301, {
     Location: '/docs/resume.pdf'
   });
