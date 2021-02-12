@@ -1,0 +1,112 @@
+.section {
+  height: 100vh;
+}
+
+.content {
+  margin-bottom: 2em;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 2em;
+  color: var(--theme-color);
+}
+
+.name {
+  font-weight: bold;
+  font-size: 6em;
+  color: var(--theme-page-text);
+  margin-left: -4px;
+}
+
+.description {
+  color: var(--theme-page-text);
+}
+
+.period {
+  color: var(--theme-color);
+}
+
+.button {
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.resume {
+  background-color: var(--theme-page-text);
+  border: none;
+}
+
+.resume:hover {
+  background-color: var(--theme-color);
+}
+
+.contact {
+  background: none;
+  color: var(--theme-page-text);
+  border: 2px solid var(--theme-page-text);
+}
+
+.contact:hover {
+  color: var(--theme-color);
+  border-color: var(--theme-color);
+  background: none;
+}
+
+.resume {
+  border: 2px solid var(--theme-page-text);
+  color: var(--theme-page-background);
+}
+
+.resume:hover {
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
+}
+
+.contactIcon, .resumeIcon {
+  width: 0.9em;
+  margin-right: 10px;
+  margin-top: -2px;
+}
+
+.hero {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  transition: all 0.25s ease;
+  filter: saturate(0);
+  border-radius: 50%;
+  border: 8px solid var(--theme-color);
+}
+
+.hero:hover {
+  filter: saturate(1);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    width: 60%
+  }
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding-top: 4em;
+  }
+
+  .hero {
+    width: 75%
+  }
+}
+
+@media (max-width: 320px) {
+  .section {
+    padding-top: 6em;
+  }
+
+  .resume {
+    margin-top: 8px;
+  }
+}

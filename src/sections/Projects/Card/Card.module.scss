@@ -1,0 +1,39 @@
+.cardInfo {
+  padding: 32px;
+  padding-top: 36px;
+  color: var(--theme-page-text);
+  border: 2px solid var(--theme-page-text);
+  border-radius: 8px;
+  height: 248px;
+  margin-bottom: 2em;
+  transition: all 0.25s ease;
+  box-shadow: -12px 12px var(--theme-page-text);
+  position: relative;
+}
+
+.cardInfo:hover {
+  box-shadow: none;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.github {
+  float: right;
+  width: 1.25em;
+  color: var(--theme-page-text);
+  transition: all 0.25s ease;
+}
+
+.github:hover {
+  color: var(--theme-color);
+}
+
+.badge {
+  background-color: var(--theme-color);
+  position: absolute;
+  bottom: 32px;
+}

@@ -11,8 +11,9 @@ import {
   Nav,
   NavItem
 } from 'reactstrap';
-import styles from './Navigation.module.css';
+import styles from './Navigation.module.scss';
 import menuAnimation from './menu-animation.json';
+import ThemeToggle from '../ThemeToggle/ThemeToggle';
 
 const lottieProps = {
   loop: false,
@@ -36,7 +37,8 @@ const menuBoxShadow = '0px 4px 28px rgba(0, 0, 0, 0.06)';
 // Menu transition styling for menu
 const menuTransition = 'all 0.5s ease';
 
-export default function Navigation() {
+export default function Navigation(props) {
+  const { onThemeChange } = props;
   const [isOpen, setIsOpen] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
   const menuIconEl = useRef(null);
@@ -81,7 +83,7 @@ export default function Navigation() {
           />
         </NavbarToggler>
         <Collapse isOpen={isOpen} navbar data-testid="Navigation-collapse">
-          <Nav className="ml-auto mr-5 mt-3 mb-3" navbar>
+          <Nav className="ml-auto mr-5 justify-content-center" navbar>
             {navItems.map(({ to, num, name }, index) => (
               <NavItem className="ml-4 mt-2 mb-2" key={index} data-testid="Navigation-item">
                 <Link {...reactScrollLinkProps} className={styles.navLink} to={to}>
@@ -89,6 +91,9 @@ export default function Navigation() {
                 </Link>
               </NavItem>
             ))}
+            <NavItem className={`${styles.toggle}`}>
+              <ThemeToggle onChange={onThemeChange} />
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>

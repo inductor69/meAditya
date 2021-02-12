@@ -1,0 +1,50 @@
+.section {
+  margin: 10em auto;
+}
+
+.link {
+  font-weight: bold;
+  color: var(--theme-color);
+}
+
+.link:hover {
+  color: var(--theme-color);
+}
+
+.header {
+  color: var(--theme-page-text);
+  font-weight: bold;
+}
+
+.headerGroup {
+  font-weight: bold;
+}
+
+.headerNum {
+  color: var(--theme-color);
+}
+
+.thingsGroup {
+  margin-top: 1.5em;
+}
+
+.thingsHeader {
+  font-weight: bold;
+  color: var(--theme-page-text);
+}
+
+.thingsList {
+  margin-top: -8px;
+  margin-left: -20px;
+  color: var(--theme-page-text);
+}
+
+.description {
+  color: var(--theme-page-text);
+}
+
+.hero {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}

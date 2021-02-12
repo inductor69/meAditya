@@ -1,0 +1,35 @@
+.logo {
+  width: 85%;
+}
+
+.navbar, .navCollapse {
+  background-color: var(--theme-page-background);
+}
+
+.navLink {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: var(--theme-page-text) !important;
+} 
+
+.navLink:hover {
+  cursor: pointer;
+}
+
+.navNum {
+  color: var(--theme-color);
+}
+
+.toggler {
+  border: none;
+}
+
+.menuIcon {
+  width: 48px;
+}
+
+.toggle {
+  margin-left: 24px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}

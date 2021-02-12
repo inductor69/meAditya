@@ -1,4 +1,4 @@
-import styles from './Card.module.css';
+import styles from './Card.module.scss';
 import { Badge } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FormattedMessage } from 'text-provider';
@@ -16,6 +16,11 @@ export default function Card({ nameId, descriptionId, githubLink, winner }) {
         <p className={styles.description}>
           <FormattedMessage id={descriptionId} />
         </p>
+        {winner && 
+          <Badge className={styles.badge}>
+            <FormattedMessage id="WINNER" />
+          </Badge>
+        }
       </div>
     </div>
   )
