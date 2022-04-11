@@ -32,7 +32,7 @@
     "react-ionicons": "^4.1.0",
     "react-particles-js": "^3.4.1",
     "react-reveal": "^1.2.2",
-    "react-scroll": "^1.8.1",
+    "react-scroll": "1.8.7",
     "reactstrap": "^8.7.1",
     "sass": "^1.32.5",
     "styled-components": "^5.2.1",
