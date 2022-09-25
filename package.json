@@ -39,7 +39,7 @@
     "text-provider": "0.0.37"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "^11.2.2",
     "babel-jest": "^26.6.3",
     "jest": "^26.6.3",
