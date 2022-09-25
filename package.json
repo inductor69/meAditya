@@ -19,7 +19,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.13",
     "axios": "^0.21.1",
-    "bootstrap": "^4.5.3",
+    "bootstrap": "4.6.2",
     "lottie-react": "^2.1.0",
     "next": "^10.0.3",
     "next-fonts": "^1.5.1",
