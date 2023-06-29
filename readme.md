@@ -1,4 +1,4 @@
-# ahmad.dev: A Portfolio Site
+# meaditya.com: A Portfolio Site
 
 Welcome to my portfolio site repo. This project showcases my work as a full stack web developer and software engineer and provides ways for people to reach out or learn more about me.
 
@@ -11,7 +11,7 @@ Welcome to my portfolio site repo. This project showcases my work as a full stac
 
 ## Live Site
 
-Check out my portfolio site live at [ahmadsandid.com](https://ahmadsandid.com) to explore my projects and learn more about my skills and experience.
+Check out my portfolio site live at [meaditya.com](https://meaditya.com) to explore my projects and learn more about my skills and experience.
 
 ## Getting Started
 
@@ -42,10 +42,3 @@ Check out my portfolio site live at [ahmadsandid.com](https://ahmadsandid.com) t
 
 2. Open your browser and visit http://localhost:3000 to see the portfolio site in action.
 
-### Contact Me
-
-Feel free to reach out to me if you have any questions or opportunities for collaboration:
-
-- Email: ahmad1702@gmail.com
-- LinkedIn: https://www.linkedin.com/in/ahmad-sandid-485b59164/
-- Thank you for visiting my portfolio site repository!
