@@ -46,6 +46,5 @@ Check out my portfolio site live at [ahmadsandid.com](https://ahmadsandid.com) t
 
 Feel free to reach out to me if you have any questions or opportunities for collaboration:
 
-- Email: ahmad1702@gmail.com
-- LinkedIn: https://www.linkedin.com/in/ahmad-sandid-485b59164/
+- Email: adityakiitdelhi@gmail.com
 - Thank you for visiting my portfolio site repository!
