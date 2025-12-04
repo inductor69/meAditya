@@ -7496,10 +7496,10 @@ test-exclude@^6.0.0:
     glob "^7.1.4"
     minimatch "^3.0.4"
 
-text-provider@0.0.37:
-  version "0.0.37"
-  resolved "https://registry.yarnpkg.com/text-provider/-/text-provider-0.0.37.tgz#3f65e8d2a679c4b81abfce1a16418705be91def2"
-  integrity sha512-Lnm0K+XnonNpkb0kBL43cRABZH6xFMBss92czN0jzS9h8O7/W1lJ8jGvJagWmDTAzlpZi3IrsJSa2bvqewqvOg==
+text-provider@1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/text-provider/-/text-provider-1.1.3.tgz#e7e2664c4e786302fcc57f3a1376279d2cfef329"
+  integrity sha512-1ucM0kOBx3ilGirz+H9bnOYGDdu8jkxMsfEb46OYIQ2PZXD8MPoHDtf2WIeqlBVQUXFg2P3DEDT8LEWKlz9Svg==
   dependencies:
     prop-types "^15.7.2"
     react "^16.13.1"
